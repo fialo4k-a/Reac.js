@@ -1,0 +1,29 @@
+#line{
+    margin-top: 20px;
+    border-top: 2px solid black;
+    background-color: peru;
+    margin-bottom: 40px;
+}
+
+#list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profs{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+
+.btns{
+    border:2px solid black;
+    background-color: yellow;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.btns:active{
+    background-color: yellowgreen;
+}

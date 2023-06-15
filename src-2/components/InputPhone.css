@@ -1,0 +1,71 @@
+.wrapper{
+    max-width: 50%;
+    border: 1px solid black;
+    margin:  0  auto;
+}
+
+
+.phoneArea{
+    border: 1px solid black;
+    width: 400px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flags {
+    width: 100px;
+    height: 26.6px;
+    background-repeat: no-repeat;
+}
+
+.flag:active{
+    position: relative;
+    top: 3px;
+    right: 2px;
+    box-shadow: 2px 2px black;
+}
+
+input {
+    width: 250px;
+    height: 26.6px;
+
+  }
+
+  img {
+      display: block;
+      margin:  0  auto;
+  }
+
+  .listButton{
+    margin-top: 8px;
+    border: 8px solid transparent;	
+    border-top: 8px solid black; 
+    width:0;
+    height:0
+  }
+
+  .unvisible{
+      display: none;
+  }
+
+  .visib{
+      display: block;
+  }
+
+  .fix{
+      margin: 0;
+  }
+
+  .style{
+      border: 1px solid black;
+  }
+
+  .style>img,span{
+      display: inline;
+  }
+
+  .style:hover{
+      box-shadow: 2px 2px black;
+  }

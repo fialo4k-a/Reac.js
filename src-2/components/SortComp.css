@@ -1,0 +1,25 @@
+.wrapperTbl{
+    margin-top: 30px;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr,td{
+    border: 1px solid black;
+}
+
+.headerTable>td{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: none;
+}
+
+.animation{
+    box-shadow: 2px 2px grey;
+    color: green;
+}
+
